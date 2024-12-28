@@ -14,10 +14,33 @@
     --text-color-primary: rgba(241, 245, 249, 1);
     --text-color-secondary: #CBD5E1;
 
+    --font-family: Archivo, sans-serif;
+    --font-h1: 800 24px/135% var(--font-family);
+    --font-h2: 800 16px/140% var(--font-family);
+    --font-h3: 800 14px/140% var(--font-family);
+    --font-span: 600 14px/145% var(--font-family);
+    --font-paragraph: 400 14px/160% var(--font-family);
+
+
 }
 
 body {
 
     color: var(--text-color-primary);
     background-color: var(--bg-color);
+    font: var(--font-span);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: var(--brand-color-light);
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    font: inherit;
 }
