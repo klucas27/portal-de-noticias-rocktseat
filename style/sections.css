@@ -23,6 +23,7 @@ section header {
 }
 
 #featured {
+    grid-area: featured;
 
     img {
         height: 100%;
@@ -64,6 +65,7 @@ section header {
 
 #weekly {
 
+    grid-area: weekly;
     
 
     &>div {
@@ -92,4 +94,56 @@ section header {
         }
 
     }
+}
+
+#ai {
+
+    grid-area: ai;
+
+    img {
+        width: 176px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+    h3 {
+        margin-right: 16px;
+        margin-top: 8px;
+    }
+
+    p{
+        color: var(--text-color-secondary);
+        margin-top: 4px;
+    }
+
+    
+    
+}
+
+#ads {
+    margin-bottom: 32px;
+}
+
+#more {
+    img {
+        width: 72px;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+
+    h3 {
+        margin-top: 8px;
+    }
+
+    div div:nth-child(2) {
+        margin-left: 8px;
+    }
+
+
+
+
+
+}
+
+aside {
+    grid-area: aside;
 }
